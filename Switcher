@@ -1,0 +1,13 @@
+def func(x):
+    switcher = {
+        1:"One",
+        2:"Two",
+        3:"Three"
+        
+    }
+    return switcher.get(x,"Not available")  
+n = int(input("Enter "))
+c = func(n)
+print(c)
+ 
+
