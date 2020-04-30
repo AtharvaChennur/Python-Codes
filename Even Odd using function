@@ -1,0 +1,8 @@
+def guess(n):
+    n = int(input("Enter a number"))
+    if(n%2==0):
+        print("even no")
+    else:
+        print("odd")
+
+guess(2)
