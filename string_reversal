@@ -1,0 +1,9 @@
+def reverse(s):
+
+    rev = ""
+    for i in s:
+        rev =  i + rev
+    return rev
+
+string = input("enter a string")
+reverse(string)
