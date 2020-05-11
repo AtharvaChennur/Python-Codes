@@ -1,0 +1,8 @@
+a,b = input("Enter two numbers ").split()
+a = int(a)
+b = int(b)
+temp = 0
+temp = a
+a=b
+b=temp
+print(a,b)
