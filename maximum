@@ -1,0 +1,17 @@
+*********USing INBUILT FUNCTION************************
+def maxi(m,n):
+    return max(m,n)
+a,b = input("Enter two numbers").split()
+maxi(a,b)
+
+
+***************USING IF_ELSE*****************
+def comp(m,n):
+    if a>b:
+        print("The greater number is "+a)
+    elif a<b:
+        print("The graeter number is"+b)
+    else:
+        print("The numbers are equal")
+a,b = input("Enter two num").split()
+comp(a,b)
