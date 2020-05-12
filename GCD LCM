@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=Q-jmbUbNHOM
+
+
+def gdcn(n1,n2):
+    while n1!=n2:
+        if n1>n2:
+            n1 = n1 -n2
+        else:
+            n2 = n2-n1
+    gcd = n1
+    return n1  
+
+a,b = input("enter two nos").split()
+a=int(a)
+b=int(b)
+gdcn(a,b)
+
+def lcmn(c,d):
+    value = n1*n1/gcd
+    return gcd
+    
