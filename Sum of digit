@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=JzrHBeXC3Nk
+def sumof(n):
+    sum = 0
+    while n>0:
+        re = n%10
+        sum =  sum + re
+        n =  n //10
+    return sum
+a = input("enter a number")
+a = int(a)
+sumof(a)
