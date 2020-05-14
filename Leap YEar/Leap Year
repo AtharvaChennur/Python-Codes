@@ -1,0 +1,9 @@
+def lep(yr):
+    if yr%4==0:
+        print("leap year")
+    else:
+        print("Not leap year")
+    return 0
+year = input("Enter a year")
+year = int(year)
+lep(year)
