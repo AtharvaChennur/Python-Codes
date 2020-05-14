@@ -1,0 +1,13 @@
+def btd(n):
+    i = 0
+    dec = 0
+    while n!=0:
+        v = n%10
+        n = n//10
+        dec = dec + v*2**i
+        i = i+1
+    return dec
+    
+num = input("Enter a number")
+num = int(num)
+btd(num)
