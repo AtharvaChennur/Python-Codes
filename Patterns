@@ -4,7 +4,7 @@ for i in range(0,5):
     print("")
     
     
-    
+Pattern 1   
 *
 **
 ***
@@ -15,14 +15,21 @@ for i in range(0,4):
     for j in range(5-i):
         print("*" , end = "")
     print("")
-    
-    
+   Pattern 2
 *****
 ****
 ***
 **
 
-
+Pattern 3
+ *
+**
+***
+****
+*****
+****
+***
+**
 for i in range(0,5):
     for j in range(0,i):
         print("*" , end = "")
@@ -32,13 +39,19 @@ for i in range(0,4):
         print("*", end="")
     print("*")
     
-    
-    
- *
-**
+Pattern 4
+  *
+ **
 ***
-****
-*****
-****
-***
-**
+for i in range(0,4):                    Logic: Initially print for spaces and then print for * pattern 1
+    for j in range(0,3-i):
+        print(" " , end="")
+    for k in range(0,i):
+        print("*",end="")
+    print("")
+    
+        
+
+
+
+
