@@ -1,0 +1,5 @@
+def asc(s):
+    s = str(s)
+    print(ord(s))
+s = input("Enter a charecter")
+asc(s)
