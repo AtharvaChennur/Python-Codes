@@ -1,0 +1,9 @@
+def vowel(ch):
+    s = ["a","e","i","o","u"]
+    if ch in s:
+        print("Vowel")
+    else:
+        print("Not a vowel")
+    return ch
+ch = input("Enter charecter")
+vowel(ch)
