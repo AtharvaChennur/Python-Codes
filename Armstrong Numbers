@@ -1,0 +1,10 @@
+def arms(n):
+    sum = 0
+    var = 0
+    while n>0:
+        var = n%10
+        sum = sum + var**3
+        n = n//10
+    return sum
+n = int(input("Enter a number"))
+arms(n)
