@@ -1,0 +1,8 @@
+def rmv(s):
+    s = list(s)
+    for i in s:
+        if i == "a":
+            s.remove(i)
+    return s
+s =input("Enter a string")
+rmv(s)
